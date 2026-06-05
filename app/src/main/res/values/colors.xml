@@ -1,0 +1,18 @@
+<resources>
+    <color name="primary">#5BA4CF</color>
+    <color name="primaryDark">#3D8ABF</color>
+    <color name="primaryLight">#A8D4F0</color>
+    <color name="secondary">#7EC8E3</color>
+    <color name="secondaryDark">#5BA4CF</color>
+    <color name="textPrimary">#FF1A3A4C</color>
+    <color name="textSecondary">#FF5A7A90</color>
+    <color name="textOnPrimary">#FFFFFFFF</color>
+    <color name="buttonBg">#5BA4CF</color>
+    <color name="buttonText">#FFFFFFFF</color>
+    <color name="inputBg">#B0FFFFFF</color>
+    <color name="cardBg">#B0FFFFFF</color>
+    <color name="logoutColor">#FFE06C75</color>
+    <color name="linkColor">#FF3D8ABF</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

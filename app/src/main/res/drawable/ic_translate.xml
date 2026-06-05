@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- 平移：四向箭头 -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M10,9h4V6h3l-5,-5 -5,5h3v3zM9,10H6v3l-5,-5 5,-5v3h3v4zM14,15h-4v3H7l5,5 5,-5h-3v-3zM15,14h3v-3l5,5 -5,5v-3h-3v-4z"/>
+</vector>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- 我们需要的自定义 lint 配置 -->
+    
+    <!-- 忽略不必要的资源警告 -->
+    <issue id="UnusedResources" severity="warning" />
+    
+    <!-- 忽略硬编码字符串警告 -->
+    <issue id="HardcodedText" severity="warning" />
+    
+    <!-- 忽略缺少翻译警告 -->
+    <issue id="MissingTranslation" severity="ignore" />
+    
+    <!-- 忽略图标尺寸警告 -->
+    <issue id="IconDensities" severity="ignore" />
+    
+    <!-- 忽略过时 API 警告，因为我们知道我们需要支持的 API 级别 -->
+    <issue id="NewApi" severity="warning" />
+</lint>

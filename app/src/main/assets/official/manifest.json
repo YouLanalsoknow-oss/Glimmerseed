@@ -1,0 +1,20 @@
+[
+  {
+    "assetId": "official_sample_1",
+    "type": "IMAGE",
+    "source": "OFFICIAL",
+    "displayName": "示例素材1",
+    "thumbnailPath": "official/sample_1.jpg",
+    "sizeBytes": 102400,
+    "createdAt": 1717300800000
+  },
+  {
+    "assetId": "official_sample_2",
+    "type": "IMAGE",
+    "source": "OFFICIAL",
+    "displayName": "示例素材2",
+    "thumbnailPath": "official/sample_2.jpg",
+    "sizeBytes": 153600,
+    "createdAt": 1717387200000
+  }
+]
