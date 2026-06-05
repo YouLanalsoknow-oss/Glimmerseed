@@ -1,0 +1,29 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/glimmerseed?useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    password: glimmerseed2024
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+jwt:
+  secret: glimmerseed-jwt-secret-key-2024-very-long-and-secure-secret-key-for-jwt-token-generation
+  expiration: 86400000
+
+siliconflow:
+  api-key: sk-psahinqeszjuyqlerjswcldalhepyjheenidxrkuvawsyxav
+  base-url: https://api.siliconflow.cn/v1/
+
+logging:
+  level:
+    root: INFO
+    com.example.glimmerseed: DEBUG

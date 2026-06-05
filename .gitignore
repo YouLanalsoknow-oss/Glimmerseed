@@ -1,0 +1,23 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+**/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# 虚拟环境
+backend_fastapi/.venv/
+
+# 素材缓存目录
+app/src/main/assets/cache/
+frame_cache/
+*.tmp

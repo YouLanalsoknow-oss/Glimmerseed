@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="" xmlns:android="http://schemas.android.com/apk/res/android" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <element name="manifest">
+            <oneOrMore>
+                <element name="uses-permission">
+                    <attribute name="android:name">
+                        <data type="NCName"/>
+                    </attribute>
+                </element>
+            </oneOrMore>
+            <element name="application">
+                <attribute name="android:allowBackup">
+                    <data type="boolean"/>
+                </attribute>
+                <attribute name="android:dataExtractionRules"/>
+                <attribute name="android:fullBackupContent"/>
+                <attribute name="android:icon"/>
+                <attribute name="android:label"/>
+                <attribute name="android:name">
+                    <data type="NMTOKEN"/>
+                </attribute>
+                <attribute name="android:roundIcon"/>
+                <attribute name="android:supportsRtl">
+                    <data type="boolean"/>
+                </attribute>
+                <attribute name="android:theme"/>
+                <attribute name="android:usesCleartextTraffic">
+                    <data type="boolean"/>
+                </attribute>
+                <oneOrMore>
+                    <element name="activity">
+                        <attribute name="android:configChanges"/>
+                        <attribute name="android:exported">
+                            <data type="boolean"/>
+                        </attribute>
+                        <attribute name="android:name">
+                            <data type="NMTOKEN"/>
+                        </attribute>
+                        <optional>
+                            <attribute name="android:screenOrientation">
+                                <data type="NCName"/>
+                            </attribute>
+                        </optional>
+                        <optional>
+                            <element name="intent-filter">
+                                <element name="action">
+                                    <attribute name="android:name">
+                                        <data type="NCName"/>
+                                    </attribute>
+                                </element>
+                                <element name="category">
+                                    <attribute name="android:name"/>
+                                </element>
+                            </element>
+                        </optional>
+                    </element>
+                </oneOrMore>
+                <element name="provider">
+                    <attribute name="android:authorities"/>
+                    <attribute name="android:exported">
+                        <data type="boolean"/>
+                    </attribute>
+                    <attribute name="android:grantUriPermissions">
+                        <data type="boolean"/>
+                    </attribute>
+                    <attribute name="android:name"/>
+                    <element name="meta-data">
+                        <attribute name="android:name"/>
+                        <attribute name="android:resource"/>
+                    </element>
+                </element>
+                <element name="service">
+                    <attribute name="android:exported">
+                        <data type="boolean"/>
+                    </attribute>
+                    <attribute name="android:foregroundServiceType">
+                        <data type="NCName"/>
+                    </attribute>
+                    <attribute name="android:name"/>
+                </element>
+            </element>
+        </element>
+    </start>
+</grammar>

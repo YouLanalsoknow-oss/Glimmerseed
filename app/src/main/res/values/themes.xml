@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.GlimmerSeed" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#5BA4CF</item>
+        <item name="colorPrimaryVariant">#3D8ABF</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">#7EC8E3</item>
+        <item name="colorSecondaryVariant">#5BA4CF</item>
+        <item name="colorOnSecondary">#FF1A3A4C</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:enforceStatusBarContrast" tools:targetApi="33">false</item>
+        <item name="android:enforceNavigationBarContrast" tools:targetApi="33">false</item>
+    </style>
+</resources>
